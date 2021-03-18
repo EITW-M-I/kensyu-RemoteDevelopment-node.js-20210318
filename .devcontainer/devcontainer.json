@@ -4,9 +4,10 @@
     "service": "app",
     "settings": {
       "terminal.integrated.shell.linux": "/bin/ash",
-      "editor.formatOnSave": true
+      "editor.formatOnSave": true,
+      "eslint.packageManager": "yarn"
     },
     "workspaceFolder": "/usr/src/app",
-    "extensions": ["eamodio.gitlens", "donjayamanne.githistory","esbenp.prettier-vscode"],
+    "extensions": ["eamodio.gitlens", "donjayamanne.githistory","esbenp.prettier-vscode","dbaeumer.vscode-eslint"],
     "postCreateCommand": "yarn install"
   }
