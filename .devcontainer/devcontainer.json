@@ -1,0 +1,12 @@
+{
+    "name": "Node.js",
+    "dockerComposeFile": "../docker-compose.yml",
+    "service": "app",
+    "settings": {
+      "terminal.integrated.shell.linux": "/bin/ash"
+    },
+    "workspaceFolder": "/usr/src/app",
+    "extensions": ["eamodio.gitlens", "donjayamanne.githistory"],
+    "postCreateCommand": "yarn install"
+  }
+  
