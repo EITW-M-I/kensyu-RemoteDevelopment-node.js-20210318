@@ -3,10 +3,10 @@
     "dockerComposeFile": "../docker-compose.yml",
     "service": "app",
     "settings": {
-      "terminal.integrated.shell.linux": "/bin/ash"
+      "terminal.integrated.shell.linux": "/bin/ash",
+      "editor.formatOnSave": true
     },
     "workspaceFolder": "/usr/src/app",
-    "extensions": ["eamodio.gitlens", "donjayamanne.githistory"],
+    "extensions": ["eamodio.gitlens", "donjayamanne.githistory","esbenp.prettier-vscode"],
     "postCreateCommand": "yarn install"
   }
-  
